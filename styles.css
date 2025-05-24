@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+.container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:4px;
+}
+.container div{
+	height:100px;
+	width:100px;
+	background-color:green;
+}
